@@ -1,0 +1,13 @@
+{
+    "name": "COMP 423 Go Tutorial",
+    "image": "mcr.microsoft.com/vscode/devcontainers/go",
+    "customizations": {
+      "vscode": {
+        "settings": {},
+        "extensions": [
+          "golang.go"
+        ]
+      }
+    },
+    "postCreateCommand": "touch main.go && go mod init hello_423"
+  }
